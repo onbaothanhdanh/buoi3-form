@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- form sở thích câu 1 -->
+    <form action="" method="post">
+        <h2>Sở thích của bạn</h2>
+
+        <!-- Ô input cho họ và tên -->
+        <label>Họ và tên: <input type="text" name="HovaTen" required></label><br>
+
+        <!-- Ô input cho email -->
+        <label>Email: <input type="email" name="email" required></label><br>
+
+        <!-- Checkbox cho sở thích -->
+        <label><input type="checkbox" name="thethao" value="Thể thao"> Thể thao</label><br>
+        <label><input type="checkbox" name="amnhac" value="Âm nhạc"> Âm nhạc</label><br>
+        <label><input type="checkbox" name="docsach" value="Đọc sách"> Đọc sách</label><br>
+        <label><input type="checkbox" name="luotweb" value="Lướt web"> Lướt web</label><br>
+        <label><input type="checkbox" name="choigame" value="Chơi game"> Chơi game</label><br>
+        <label><input type="checkbox" name="dienanh" value="Điện ảnh"> Điện ảnh</label><br>
+        <label><input type="checkbox" name="dulich" value="Du lịch"> Du lịch</label><br>
+
+        <!-- Nút gửi thông tin -->
+        <input type="submit" value="Gửi thông tin">
+
+        <!-- Nút nhập lại -->
+        <input type="reset" value="Nhập lại">
+    </form>
+    <!-- form Đăng ký học viên câu 1 -->
+    <form action="" method="post">
+        <h2>Đăng ký học viên</h2>
+
+        <!-- Ô input cho Họ tên -->
+        <label>Họ và tên: <input type="text" name="Họ và tên" required></label><br>
+
+        <!-- Ô input cho Ngày sinh -->
+        <label>Ngày sinh: <input type="date" name="Ngày sinh"></label><br>
+
+        <!-- Radio button cho giới tính -->
+        <label><input type="radio" name="gioitinh"> Male <br>
+                <input type="radio" name="gioitinh"> Nữ</label>
+        <br>
+
+        <!-- Ô input cho Địa chỉ -->
+        <label>Địa chỉ: <textarea name="Địa chỉ" rows="4"></textarea></label><br>
+
+        <!-- Ô input cho Lớp -->
+        <label for="class">Lớp:
+            <select name="class">
+                <option>Chọn lớp</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+        </label>
+        <br>
+
+        <!-- Ô input cho Email -->
+        <label>Email: <input type="email" name="email" required></label><br>
+
+        <!-- Ô input cho Điện thoại -->
+        <label>Điện thoại: <input type="tel" name="Điện thoại"></label><br>
+
+        <!-- Nút gửi thông tin -->
+        <input type="submit" value="Đăng ký">
+
+        <!-- Nút nhập lại -->
+        <input type="reset" value="Nhập lại">
+    </form>
+</body>
+
+</html>
